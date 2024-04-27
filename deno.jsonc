@@ -5,6 +5,7 @@
     "$std/": "https://deno.land/std@0.223.0/"
   },
   "tasks": {
+    "run-typecheck": "deno run --check main.ts",
     "dev": "deno run --watch main.ts"
   }
 }
